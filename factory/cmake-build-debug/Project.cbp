@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\lib\;CMake Files\..\..\..\lib\HCT\;CMake Files\..\..\..\lib\HCT\Target_Maker\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factory">
+				<Option output="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory/CMakeFiles/factory.dir/factory.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/ramon/lib/HWLIB/library"/>
+					<Add directory="/mnt/c/Users/ramon/Catch2/single_include"/>
+					<Add directory="/mnt/c/Users/ramon/Catch2/single_include/catch2"/>
+					<Add directory="/mnt/c/Users/ramon/boost_1_69_0"/>
+					<Add directory="/mnt/c/Users/ramon/lib/BMPTK"/>
+					<Add directory="/mnt/c/Users/ramon/lib/BMPTK/targets"/>
+					<Add directory="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory/Makefile&quot;  VERBOSE=1 factory"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factory/fast">
+				<Option output="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory/CMakeFiles/factory.dir/factory.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/ramon/lib/HWLIB/library"/>
+					<Add directory="/mnt/c/Users/ramon/Catch2/single_include"/>
+					<Add directory="/mnt/c/Users/ramon/Catch2/single_include/catch2"/>
+					<Add directory="/mnt/c/Users/ramon/boost_1_69_0"/>
+					<Add directory="/mnt/c/Users/ramon/lib/BMPTK"/>
+					<Add directory="/mnt/c/Users/ramon/lib/BMPTK/targets"/>
+					<Add directory="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory/Makefile&quot;  VERBOSE=1 factory/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/ramon/lib/HWLIB/library/hwlib.cpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/lib/HWLIB/library/hwlib.hpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/Circle.cpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/Circle.hpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/Picture.cpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/Picture.hpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/Rectangle.cpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/Rectangle.hpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory/test.txt">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug/HCT/factory/test.txt.rule">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/factory.cpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/factory.hpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/main.cpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/operators.cpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/operators.hpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/screen_object.cpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/screen_object.hpp">
+			<Option target="factory"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/../../../lib/HCT/HCT.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\lib\HCT\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/../../../lib/HCT/Target_Maker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\lib\HCT\Target_Maker\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

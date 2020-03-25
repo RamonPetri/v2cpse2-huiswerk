@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+a7c4ddf95c9dae9643ad0272fc9509ae HCT/factory/test.txt

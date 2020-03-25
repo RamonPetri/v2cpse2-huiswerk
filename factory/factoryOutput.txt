@@ -1,0 +1,3 @@
+(590,104) RECTANGLE yellow (100,100)
+(191,342) PICTURE  Cplusplus.png
+(335,166) CIRCLE blue 80

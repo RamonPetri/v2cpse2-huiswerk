@@ -1,0 +1,40 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+
+Makefile found in: /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory
+Looking for source for factory
+-- File: "Circle.cpp"
+-- File Circle.cpp found as /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/Circle.cpp
+-- File: "factory.cpp"
+-- File factory.cpp found as /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/factory.cpp
+-- File: "operators.cpp"
+-- File operators.cpp found as /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/operators.cpp
+-- File: "Picture.cpp"
+-- File Picture.cpp found as /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/Picture.cpp
+-- File: "Rectangle.cpp"
+-- File Rectangle.cpp found as /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/Rectangle.cpp
+-- File: "screen_object.cpp"
+-- File screen_object.cpp found as /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/screen_object.cpp
+-- File: "hwlib.cpp"
+-- File hwlib.cpp found as /mnt/c/Users/ramon/lib/HWLIB/library/hwlib.cpp
+-- File: "main.cpp"
+-- Target loaded: factory
+------------------------------
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/factory/cmake-build-debug
