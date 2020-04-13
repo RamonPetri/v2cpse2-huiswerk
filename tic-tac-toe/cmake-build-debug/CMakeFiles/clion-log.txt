@@ -1,0 +1,24 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe
+
+Makefile found in: /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe
+Looking for source for tic-tac-toe
+-- File: "board_builder.cpp"
+-- File board_builder.cpp found as /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/board_builder.cpp
+-- File: "comand_line_interface.cpp"
+-- File comand_line_interface.cpp found as /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/comand_line_interface.cpp
+-- File: "game_logic.cpp"
+-- File game_logic.cpp found as /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/game_logic.cpp
+-- File: "graphical_user_interface.cpp"
+-- File graphical_user_interface.cpp found as /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/graphical_user_interface.cpp
+-- File: "game_moves.cpp"
+-- File game_moves.cpp found as /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/game_moves.cpp
+-- File: "hwlib.cpp"
+-- File hwlib.cpp found as /mnt/c/Users/ramon/lib/HWLIB/library/hwlib.cpp
+-- File: "main.cpp"
+-- Target loaded: tic-tac-toe
+------------------------------
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug

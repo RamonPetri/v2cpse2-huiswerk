@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+84fdc819e7beed70e2f9240b7314f559 HCT/tic-tac-toe/test.txt

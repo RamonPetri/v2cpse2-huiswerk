@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\lib\;CMake Files\..\..\..\lib\HCT\;CMake Files\..\..\..\lib\HCT\Target_Maker\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tic-tac-toe">
+				<Option output="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe/CMakeFiles/tic-tac-toe.dir/tic-tac-toe.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/ramon/lib/HWLIB/library"/>
+					<Add directory="/mnt/c/Users/ramon/Catch2/single_include"/>
+					<Add directory="/mnt/c/Users/ramon/Catch2/single_include/catch2"/>
+					<Add directory="/mnt/c/Users/ramon/boost_1_69_0"/>
+					<Add directory="/mnt/c/Users/ramon/lib/BMPTK"/>
+					<Add directory="/mnt/c/Users/ramon/lib/BMPTK/targets"/>
+					<Add directory="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe/Makefile&quot;  VERBOSE=1 tic-tac-toe"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tic-tac-toe/fast">
+				<Option output="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe/CMakeFiles/tic-tac-toe.dir/tic-tac-toe.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/ramon/lib/HWLIB/library"/>
+					<Add directory="/mnt/c/Users/ramon/Catch2/single_include"/>
+					<Add directory="/mnt/c/Users/ramon/Catch2/single_include/catch2"/>
+					<Add directory="/mnt/c/Users/ramon/boost_1_69_0"/>
+					<Add directory="/mnt/c/Users/ramon/lib/BMPTK"/>
+					<Add directory="/mnt/c/Users/ramon/lib/BMPTK/targets"/>
+					<Add directory="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe/Makefile&quot;  VERBOSE=1 tic-tac-toe/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/ramon/lib/HWLIB/library/hwlib.cpp">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/lib/HWLIB/library/hwlib.hpp">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/board_builder.cpp">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/board_builder.hpp">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe/test.txt">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/cmake-build-debug/HCT/tic-tac-toe/test.txt.rule">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/comand_line_interface.cpp">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/comand_line_interface.hpp">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/game_logic.cpp">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/game_logic.hpp">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/game_moves.cpp">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/game_moves.hpp">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/graphical_user_interface.cpp">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/graphical_user_interface.hpp">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/main.cpp">
+			<Option target="tic-tac-toe"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/../../../lib/HCT/HCT.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\lib\HCT\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ramon/repos/v2cpse2-huiswerk/tic-tac-toe/../../../lib/HCT/Target_Maker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\lib\HCT\Target_Maker\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

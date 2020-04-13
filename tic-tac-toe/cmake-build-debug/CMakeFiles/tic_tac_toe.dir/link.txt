@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tic_tac_toe.dir/main.cpp.o CMakeFiles/tic_tac_toe.dir/board_builder.cpp.o CMakeFiles/tic_tac_toe.dir/comand_line_interface.cpp.o CMakeFiles/tic_tac_toe.dir/game_logic.cpp.o CMakeFiles/tic_tac_toe.dir/graphical_user_interface.cpp.o  -o tic_tac_toe 
