@@ -8,6 +8,8 @@
 #include <array>
 #include <iostream>
 #include "game_data.hpp"
+
+/// This class saves and can return the player and coordinates of a done move
 class game_moves {
 private:
     bool player;

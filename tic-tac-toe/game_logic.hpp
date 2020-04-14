@@ -12,6 +12,7 @@
 #include <SFML/Graphics.hpp>
 #include "game_data.hpp"
 
+/// This class houses all the logic of the game where all game moves and decisions are done
 class game_logic {
 private:
     data game_data;

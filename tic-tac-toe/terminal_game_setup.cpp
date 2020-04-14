@@ -4,8 +4,12 @@
 
 #include "terminal_game_setup.hpp"
 
+/// Default constructor for the class terminal_game_setup
 terminal_game_setup::terminal_game_setup(){};
 
+
+/// This function allows the game to get the run mode from the user
+/// and either starts up in command line interface mode or in graphical user interface mode
 void terminal_game_setup::start_game_setup() {
     std::cout << "Please select a game mode " << std::endl;
     std::cout << "press 1 for graphical version or ";

@@ -9,7 +9,9 @@
 #include <SFML/Graphics.hpp>
 #include "game_interface.hpp"
 #include "board_builder.hpp"
+#include "game_logic.hpp"
 
+/// This class serves the user a gui for playing the game
 class graphical_user_interface : public game_interface {
 private:
     sf::RenderWindow &window;

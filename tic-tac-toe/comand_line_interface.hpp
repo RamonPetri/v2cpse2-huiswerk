@@ -9,6 +9,7 @@
 #include "game_interface.hpp"
 #include <iostream>
 
+/// This class allows a player to play the game via a command line interface
 class comand_line_interface : public game_interface {
 private:
     inline static bool pos_found = false;

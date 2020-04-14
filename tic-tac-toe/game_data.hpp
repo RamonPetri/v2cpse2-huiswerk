@@ -7,6 +7,10 @@
 
 #include <array>
 #include <vector>
+
+/// This class holds all the data that is used in game_logic so all the data
+/// is on a central place and during iterations only values need to either be added or removed
+/// the initialization of vectors and other values will remain
 class data{
 public:
     data(){};

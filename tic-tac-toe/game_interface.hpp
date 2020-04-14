@@ -8,6 +8,8 @@
 #include "game_moves.hpp"
 #include <vector>
 
+/// This class makes it possible to implement the functions in this class in every
+/// game interface that a player can use for playing the game like a gui or cli
 class game_interface {
 public:
     /// default constructor of the class game_interface

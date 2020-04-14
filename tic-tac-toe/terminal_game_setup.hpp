@@ -11,6 +11,7 @@
 #include "comand_line_interface.hpp"
 #include "game_logic.hpp"
 
+/// This class allows the user to enter which game mode should be started
 class terminal_game_setup {
 private:
     int choice = -1;
