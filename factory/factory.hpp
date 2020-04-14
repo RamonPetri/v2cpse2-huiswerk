@@ -9,6 +9,7 @@
 #include "operators.hpp"
 #include "custom_execptions.hpp"
 
+/// this class manges the screen objects by generating them from a txt file following the factory pattern
 class factory{
 
     public:

@@ -4,6 +4,7 @@
 
 #include "screen_object.hpp"
 
+/// This class draws rectangles on the screen
 class Rectangle : public screen_object{
 private:
     sf::Vector2f origin_point;

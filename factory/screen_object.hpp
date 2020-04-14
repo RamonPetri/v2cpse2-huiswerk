@@ -3,7 +3,7 @@
 
 #include <SFML/Graphics.hpp>
 #include "operators.hpp"
-
+/// this class contains functions that are required for screen objects to posses
 class screen_object{
     protected:
         sf::Color col;

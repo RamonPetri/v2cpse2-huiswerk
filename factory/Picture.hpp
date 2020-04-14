@@ -3,6 +3,7 @@
 
 #include "screen_object.hpp"
 
+/// This class draws pictures on the screen
 class Picture : public screen_object{
 private:
     std::string path_to_file;
