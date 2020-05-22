@@ -34,7 +34,11 @@ void graphical_user_interface::draw_moves(std::vector<game_moves> &moves) {
         } else{
             y_pos = 450.0;
         }
+        if(sf::Mouse::isButtonPressed(sf::Mouse::Right)){
+            draw_image(!move.get_player(), x_pos, y_pos);
+        }
         draw_image(move.get_player(), x_pos, y_pos);
+
     }
     window.display();
 }
@@ -89,12 +93,13 @@ void graphical_user_interface::end_game(float game_state) {
 /// \return game_moves object: Represents an object for a move with player
 /// number and coordinates given
 game_moves graphical_user_interface::get_move(bool player) {
-    if(sf::Mouse::isButtonPressed(sf::Mouse::Left)){
+
+    if(sf::Mouse::isButtonPressed(sf::Mouse::Right)){
+            return game_moves(-2, -2, -2);
+    } else if(sf::Mouse::isButtonPressed(sf::Mouse::Left)){
         int pos_x, pos_y;
         auto pos_mouse = sf::Mouse::getPosition(window);
-        if(unsigned (pos_mouse.x) > window.getSize().x){
-            return game_moves(-2,-2,-2);
-        }
+
         if(pos_mouse.x >= 450.0){
             pos_x = 2;
         } else if(pos_mouse.x >= 225.0){

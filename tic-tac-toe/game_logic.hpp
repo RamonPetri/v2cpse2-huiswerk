@@ -19,7 +19,6 @@ private:
     std::vector<game_moves> moves;
     game_interface &gameInterface;
 
-
 public:
     explicit game_logic(game_interface &anInterface);
     bool move(game_moves move);

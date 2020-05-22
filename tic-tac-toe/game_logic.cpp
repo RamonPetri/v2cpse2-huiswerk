@@ -62,13 +62,17 @@ float game_logic::check_for_win() {
                                                  &game_data.gameData.right_vector, &game_data.gameData.top_horizon_vector,
                                                  &game_data.gameData.mid_horizon_vector, &game_data.gameData.bot_horizon_vector,
                                                  &game_data.gameData.diagonal_up, &game_data.gameData.diagonal_down};
-    for(auto pos : game_data.gameData.positions){
+    for(auto pos : game_data.gameData.positions) {
+        if (moves.size() >= 9 ) {
+            if ((pos->size() == 3 && pos->at(0) == pos->at(1) && pos->at(0) == pos->at(2))) {
+                return 1;
+            } else{
+                return 0.5;
+            }
+        }
         if (pos->size() == 3 && pos->at(0) == pos->at(1) && pos->at(0) == pos->at(2)) {
             return 1;
         }
-    }
-    if(moves.size() > 8){
-        return 0.5;
     }
     game_data.reset_to_default();
     return 0;
@@ -89,6 +93,7 @@ void game_logic::main() {
         }
         gameInterface.draw_moves(moves);
         sf::sleep(sf::milliseconds(10));
+
     }
     if(check_for_win() == 0.5){
         gameInterface.end_game(0.5);

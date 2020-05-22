@@ -38,7 +38,6 @@ public:
         gameData.bot_horizon_vector     = {};
         gameData.diagonal_up            = {};
         gameData.diagonal_down          = {};
-        gameData.positions              = {};
         gameData.player                 = false;
         gameData.x                      = -1;
         gameData.y                      = -1;
